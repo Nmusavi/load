@@ -1,0 +1,48 @@
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+article{
+    width: 1vw;
+    height: 1vw;
+    margin-left: 1vw;
+    animation: move 1s infinite;
+    
+}
+.eins{
+    background-color: yellow;
+    
+}
+.zwei{
+    background-color: red;
+    animation-delay: .1s;
+    
+}
+.drei{
+    background-color: blue;
+    animation-delay: .2s;
+   
+}
+.vier{
+    background-color: green;
+    animation-delay: .3s;
+   
+}
+.funf{
+    background-color: violet;
+    animation-delay: .4s;
+    
+}
+.sechs{
+    background-color: gold;
+    animation-delay: .5s;
+    
+}
+@keyframes move{
+    50%{transform:  translateY(3vh);}
+}
